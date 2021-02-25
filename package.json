@@ -1,0 +1,51 @@
+{
+  "name": "linkedin-clone-api",
+  "version": "1.0.0",
+  "description": "linkedin clone api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config src/server.js",
+    "start": "node src/server.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritapetillo/Linkedin-clone-API.git"
+  },
+  "author": "RSDA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ritapetillo/Linkedin-clone-API/issues"
+  },
+  "homepage": "https://github.com/ritapetillo/Linkedin-clone-API#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.23.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^5.0.0",
+    "fs": "0.0.1-security",
+    "hbs": "^4.1.1",
+    "joi": "^17.3.0",
+    "json2csv": "^5.0.5",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.13",
+    "mongoose-csv": "^1.1.0",
+    "multer": "^1.4.2",
+    "multer-storage-cloudinary": "^4.0.0",
+    "named-avatar-generator": "0.0.1",
+    "node-error-handler": "^1.1.14",
+    "nodemailer": "^6.4.17",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "puppeteer": "^5.5.0",
+    "query-to-mongo": "^0.10.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
